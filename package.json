@@ -1,0 +1,25 @@
+{
+  "name": "mongoaf",
+  "version": "0.1.0",
+  "description": "The future of the world is in our hands. Go, Mongo!",
+  "main": "app.js",
+  "scripts": {
+    "gomongo": "node app",
+    "test": "node app.test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benmerchant/mongoaf.git"
+  },
+  "keywords": [
+    "Mongo",
+    "is",
+    "cool"
+  ],
+  "author": "BenjaminMerchant@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benmerchant/mongoaf/issues"
+  },
+  "homepage": "https://github.com/benmerchant/mongoaf#readme"
+}
