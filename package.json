@@ -4,8 +4,8 @@
   "description": "The future of the world is in our hands. Go, Mongo!",
   "main": "app.js",
   "scripts": {
-    "gomongo": "node app",
-    "test": "node app.test"
+    "gomongo": "tsc && nodemon dist/server",
+    "test": "node tests/server.test.ts"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/benmerchant/mongoaf/issues"
   },
-  "homepage": "https://github.com/benmerchant/mongoaf#readme"
+  "homepage": "https://github.com/benmerchant/mongoaf#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.9"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.19",
+    "ts-node": "^8.10.2",
+    "esm": "^3.2.25",
+    "typescript": "^3.9.6"
+  }
 }
